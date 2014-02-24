@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#container{
+  width:860px;
+  text-align:center;
+  clear:both;
+  padding-top:40px;
+  margin:auto;
+  position:relative;
+}
+
+#headline{
+  height:150px;
+}
+
+header{
+  margin-top:20px;
+  font-family:Lucida Sans Unicode;
+  font-size:9pt;
+}
+
+
+#day{
+  float:left;
+  margin-left:50px;
+  /*border:1px red solid;*/
+}
+
+nav{
+  float:right;
+  /*border:1px red dashed;*/
+  margin-right:30px;
+}
+
+ul{
+  list-style:none;
+}
+li{
+  display:inline;
+  padding-right:20px;
+}
+
+li a{
+  text-decoration:none;
+  color:#336699;
+}
+
+#logo{
+  display:block;
+  margin:auto;
+  margin-top:35px;
+  margin-bottom:20px;
+  
+}
+
+#arrow{
+position:absolute;
+left:300px;
+  top:330px;
+z-index:1;
+display:none;
+}
+
+#arrow2{
+position:absolute;
+left:550px;
+top:330px;
+z-index:1;
+  display:none;
+}
+#arrow3{
+position:absolute;
+right:250px;
+   top:330px;
+z-index:1;
+  display:none;
+}
+h1{
+  /*border:1px solid red;*/
+  margin-bottom:15px;
+  font-size:50px;
+  line-height:1;
+  font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+  font-weight:600;
+}
+
+h3{
+font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+  font-weight:bold;
+}
+
+h6{
+font-family: 'Helvetica','Arial', sans-serif;
+ font-size:14px;
+    font-weight:normal;
+}
+
+p{color:black;}
+
+h2 {color:#336699; text-decoration:underline;}
+
+.smallbox{
+  margin:auto;
+  display:inline-block;
+  margin-top:50px;
+  margin-right:40px;
+  width:160px;
+ background: -webkit-linear-gradient(#ffffff, #F2F2F2);
+  background:    -moz-linear-gradient(#ffffff, #F2F2F2);
+  background:     -ms-linear-gradient(#ffffff, #F2F2F2);
+  background:      -o-linear-gradient(#ffffff, #F2F2F2);
+  background:         linear-gradient(#ffffff, #F2F2F2);
+  text-align:center;
+  border-radius:5px;
+  padding:10px ;
+  border:1px solid #EBEBEB;
+  font-family:Lucida Grande;
+}
+.header_hide{
+  display:none;
+}
+h2 a{
+  font-family:Lucida Grande;
+  color:#336699;
+  margin-top:5px;
+  margin-bottom:12px;
+ 
+}
+
+h4{
+  font-family:Lucida Grande;
+  margin:10px 0px 20px 0px;
+ /* border:1px blue solid;*/
+  color:#b70000;  
+}
+
+
+.smallbox > p{
+  margin-bottom:20px;
+  font-size:14px;
+}
+
+footer{
+  margin-top:30px;
+  font-size:30px;
+  font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+  color:#EBEBEB;
+}
