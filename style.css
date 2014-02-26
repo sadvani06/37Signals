@@ -58,23 +58,23 @@ li a{
 
 #arrow{
 position:absolute;
-left:300px;
-  top:330px;
+left:230px;
+  top:310px;
 z-index:1;
 display:none;
 }
 
 #arrow2{
 position:absolute;
-left:550px;
-top:330px;
+left:450px;
+top:310px;
 z-index:1;
   display:none;
 }
 #arrow3{
 position:absolute;
 right:250px;
-   top:330px;
+   top:310px;
 z-index:1;
   display:none;
 }
