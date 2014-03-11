@@ -1,3 +1,15 @@
+var weekDay=['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+
+var d= new Date();
+
+var today= weekDay[d.getDay()];
+
+console.log(today);
+
+$("#day").html("Happy "+ today);
+
+
 $("#container>a").on("mouseenter", "#first", function() {
   $("#headline").hide();
   $("#headline1").show();
